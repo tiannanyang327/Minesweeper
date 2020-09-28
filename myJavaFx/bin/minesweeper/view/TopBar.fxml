@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" minHeight="80.0" minWidth="800.0" spacing="80.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button minHeight="36.0" minWidth="80.0" mnemonicParsing="false" text="New Game" />
+      <ChoiceBox fx:id="levelBox" minHeight="36.0" minWidth="80.0" prefWidth="150.0" />
+      <Button minHeight="36.0" minWidth="80.0" mnemonicParsing="false" text="Tutorial" />
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</HBox>
